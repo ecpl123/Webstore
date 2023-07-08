@@ -13,13 +13,13 @@
     },
     {
         "id": 3,
-        "name": "Lamp_small",
+        "name": "Small lamp",
         "price": 80,
         "imgUrl": "/imgs/lamp_small.jpg"
     },
     {
         "id": 4,
-        "name": "Lamp_tall",
+        "name": "Tall lamp",
         "price": 160,
         "imgUrl": "/imgs/lamp_tall.jpg"
     }
