@@ -72,7 +72,7 @@ export function ShoppingCartProvider({ children }: ShoppingCartProviderProps) {
   function decreaseCartQuantity(id: number) {
     setCartItems((currItems) => {
       if (currItems.find((item) => item.id === id)?.quantity === 1) {
-        return currItems.filter((item) => item.id !== id); //Array.filter by item where item.id !== id allows us to return a new array where the item with the current id is filtered out.
+        return currItems.filter((item) => item.id !== id); //Array.filter by item where item.id !== id allows us to return a new array where the item with the current id is filtered out
       } else {
         return currItems.map((item) => {
           if (item.id === id) {
